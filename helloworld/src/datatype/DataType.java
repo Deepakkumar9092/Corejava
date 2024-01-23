@@ -5,7 +5,8 @@ public class DataType {
 		ShortDataType();
 		FloatDataType();
 		CharData();
-		
+		ForLong();
+		ForBoolean();
 		byte byteMaxVriable = Byte.MAX_VALUE;
 		byte byteMinVariable = Byte.MIN_VALUE;
 		
@@ -29,13 +30,20 @@ public static void FloatDataType() {
 	
 }
 public static void CharData() {
-	char CharMaxVriable = Character.MAX_VALUE;
+	char charMaxVriable = Character.MAX_VALUE;
 	char CharMinVariable = Character.MIN_VALUE;
 	
 	System.out.println("CharMaxVriable" + CharMaxVriable + "CharMinVariable" + CharMinVariable);
 	
 }
-
+public static void ForBoolean() {
+	boolean isValid = false;
+	System.out.println(isValid);
+}
+public static void ForLong() {
+	long deep=43974735L; // you can use long to L in value
+	System.out.println("deep:" + deep);
+}
 
 }
 
