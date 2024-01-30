@@ -2,10 +2,12 @@ package javaconstructor;
 
 public class Constructor {
 	
-
-		int rollno ;
-		String name;
-		int age;
+public static void main(String... args) {
+	constructorproperty();
+}
+		static int rollno ;
+		static String name;
+		static int age;
 		//Parameterized Constructor
 		public Constructor(int rollno,String name, int age ) {
 			this.rollno=rollno;
@@ -14,7 +16,7 @@ public class Constructor {
 			
 		}		
 	
-		public void constructorproperty() { 
+		public static void constructorproperty() { 
 	System.out.println("Roll No."+rollno + " name " + name + " age "+ age);
 	
 	}
