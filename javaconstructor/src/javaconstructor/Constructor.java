@@ -2,12 +2,13 @@ package javaconstructor;
 
 public class Constructor {
 	
-public static void main(String... args) {
-	constructorproperty();
-}
-		static int rollno ;
-		static String name;
-		static int age;
+		int rollno ;
+		String name;
+		int age;
+		//default constructor
+		public Constructor() {}
+		
+		
 		//Parameterized Constructor
 		public Constructor(int rollno,String name, int age ) {
 			this.rollno=rollno;
@@ -16,7 +17,12 @@ public static void main(String... args) {
 			
 		}		
 	
-		public static void constructorproperty() { 
+//		public Constructor() {
+//			// TODO Auto-generated constructor stub
+//		}
+
+
+		public void constructorproperty() { 
 	System.out.println("Roll No."+rollno + " name " + name + " age "+ age);
 	
 	}
