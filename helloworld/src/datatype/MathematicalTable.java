@@ -12,9 +12,12 @@ public class MathematicalTable {
 		System.out.println("Enter Table name");
 		String str = br.readLine();
 		int table = Integer.parseInt(str);
-
+//		int k=10;
+		
 		for(int i=1;i<=10;i++) {
-			System.out.println(table + " * " + i + " = " + table * i );
+//			System.out.println(k + " * " + i + " = " + k * i );
+			System.out.println(table + " * "+ i+" =" + table * i);
+			
 		}
 	}
 }

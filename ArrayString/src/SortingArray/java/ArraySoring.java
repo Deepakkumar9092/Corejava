@@ -24,8 +24,8 @@ public class ArraySoring {
 				else if(arr[i]<min)
 					min=arr[i];
 			}
-			System.out.println("Min Element: "+min);
-			System.out.println("Max Element:" +max);
+			System.out.println("Min Element: "+ min);
+			System.out.println("Max Element:" + max);
 			
 			
 			//using Arrays.sort predefined functions

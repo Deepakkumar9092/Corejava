@@ -11,6 +11,7 @@ public class ArraySolutions {
 		
 	public static void main(String... args) {
 //		int arr[]= {34,45,645,564};
+		
 //		for(int i=0;i<arr.length;i++) {
 //			System.out.print(arr[i]+" ");
 //		}
@@ -21,6 +22,7 @@ public class ArraySolutions {
 //			System.out.print(arr[i]+" ");
 //		}
 //		System.out.println();
+		
 //		//2nd Approach to solve the reverse string
 //		int temp=0;
 //		for(int i=0;i<arr.length/2;i++) {
@@ -92,6 +94,7 @@ public class ArraySolutions {
 		// Q4.Write a java program to sort array elements in descending order
 		
 //		int arr[]= {34,23,45,2,21};
+		
 //		int temp=0;
 //		for(int i=0;i<arr.length;i++) {
 //			for(int j=i+1;j<arr.length;j++) {
