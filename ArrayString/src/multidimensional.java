@@ -3,7 +3,7 @@ import java.util.*;
 public class multidimensional {
 	public static void main(String... args) {
 		
-	int arr[][]= {{324,321},{564,132}}; //you can write multidimensional array 
+	int arr[][]= {{324,321},{564,132}}; // you can write multidimensional array 
 //	for(int ar[]:arr)
 		
 //			System.out.println(Arrays.toString(ar));
