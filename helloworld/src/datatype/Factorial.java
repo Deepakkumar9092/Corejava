@@ -13,10 +13,8 @@ public class Factorial {
 		
 		int res=1;
 		for(int i=1;i<=factorial;i++) {
-			res = i * res;
-			
+			res = i* res;
 		}
 		System.out.println(res);
-		
 	}
 }

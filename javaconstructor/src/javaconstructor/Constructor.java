@@ -16,11 +16,6 @@ public class Constructor {
 			this.age=age;
 			
 		}		
-	
-//		public Constructor() {
-//			// TODO Auto-generated constructor stub
-//		}
-
 
 		public void constructorproperty() { 
 	System.out.println("Roll No."+rollno + " name " + name + " age "+ age);
